@@ -1,0 +1,98 @@
+".container" : {
+	layout:"vertical",
+	width:Ti.UI.FILL,
+	backgroundColor:'white'
+},
+"#sectionsView" :{
+	layout:"vertical",
+	width:Ti.UI.FILL,
+	backgroundColor:'transparent'
+},
+"#topbar" :{
+	width:Ti.UI.FILL,
+	height:45,
+	backgroundColor:'#a22621'
+},
+"#iconContainer" :{
+	height:45, 
+	width:45, 
+	left:5
+},
+"#menuicon" :{
+	width:23,
+	height:23,
+	image:'/images/menu-icon.png'
+},
+"#winTitle" :{
+	text: L('appcelerator'),
+	color: "#ffffff",
+	width: Ti.UI.SIZE	
+},
+"#introSection" :{
+	layout:"vertical",
+	height:Ti.UI.SIZE,
+	backgroundColor:"transparent",
+	left: 10,
+	right: 5
+},
+"#welcome" :{
+	text:L('welcome'),
+	color:"#a22621",
+	font:{fontFamily: "HelveticaNeue", fontWeight: 'bold', fontSize: 18},
+	textAlign: "left",
+	top:10,
+	left: 0,
+	width: "auto"
+},
+"#introtext" :{
+	top: 0,
+	left: 2,
+	right: 0,
+	bottom: 5,
+	font:{fontSize: "11"},
+	color: "#555",
+	textAlign: "left",
+	height:Ti.UI.SIZE
+},
+"#couponsSection" :{
+	layout: "vertical",
+	height: 230,
+	width: Ti.UI.FILL
+},
+".sectionHeader" :{
+	backgroundColor: "#444",
+	left:0,
+	right:0,
+	height: 26
+},
+".sectionTitle" :{
+	left: 10,
+	font:{fontWeight: "bold", fontSize: 12},
+	color: "#ffffff",
+	textAlign: "left"
+}
+"#couponsTitle" :{
+	text: L('coupons'),
+},
+"#couponsTable" :{
+	bottom: 0,
+	left: 0,
+	right: 0,
+	scrollable:false
+},
+"#geolocationSection" :{
+	layout: "vertical",
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	top: 0
+},
+"#geolocationTitle" :{
+	text: L('geolocation')
+},
+"#geolocator" :{
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	top:0
+}
+
+

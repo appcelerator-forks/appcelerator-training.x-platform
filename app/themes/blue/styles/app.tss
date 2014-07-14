@@ -1,0 +1,15 @@
+".childContainer" : {
+	layout:"vertical",
+	width:"100%",
+	backgroundColor:'white',
+	navBarHidden:true
+},
+"Button[platform=ios]" :{
+	style: Titanium.UI.iPhone.SystemButtonStyle.PLAIN,
+	height: 40,
+	backgroundColor: "#597c90"
+},
+"Button[platform=android, mobileweb]" :{
+	height: 40,
+	backgroundColor: "#597c90"
+}

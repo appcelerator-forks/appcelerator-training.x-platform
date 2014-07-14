@@ -1,0 +1,112 @@
+"#acsAclWin":{
+	layout: 'none'
+},
+"#contentScroll":{
+	top: 80,
+	width:Ti.UI.SIZE,
+	layout: 'vertical'
+},
+"#tableContent":{
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	backgroundColor: 'transparent',
+	visible: false
+},
+"#create":{
+	title: L('create')
+},
+"#show":{
+	title: L('show')
+},
+"#update":{
+	title: L('update_aclusers')
+},
+"#check":{
+	title: L('check_aclpermission')
+},
+"#selectReader":{
+	title: L('select_reader')
+},
+"#selectWriter":{
+	title: L('select_writer')
+},
+"#createACL":{
+	title: L('create')
+},
+"#sselectReader":{
+	title: L('select_reader')
+},
+"#sselectWriter":{
+	title: L('select_writer')
+},
+"#showACL":{
+	title: L('show')
+},
+"#updateACL":{
+	title: L('update_acl')
+},
+"#removeACL":{
+	title: L('remove_acl')
+},
+"#uselectReader":{
+	title: L('select_reader')
+},
+"#uselectWriter":{
+	title: L('select_writer')
+},
+"#addUser":{
+	title: L('add_acluser')
+},
+"#removeUser":{
+	title: L('remove_acluser')
+},
+"#transparentView":{
+	backgroundColor: '#000000',
+	opacity: '0.5',
+	height: '100%',
+	width: '100%'
+},
+"#containerView":{
+	height: Ti.UI.SIZE,
+	layout: 'vertical'
+},
+"#userTable": {
+	backgroundColor : '#fff',
+	height: 300,
+	width:'70%'
+},
+"#permissionTable": {
+	top: 10,
+	backgroundColor : '#fff',
+	height: 200,
+	width:'60%',
+	bubbleParent: false
+},
+"#doneBtn":{
+	top: 0,
+	height: 30,
+	width: '70%',
+	title: L('done')
+},
+".outerButton":{
+	top: 10,
+	color: "#ffffff",
+	width: '80%',
+},
+".contentView":{
+	height: 1,
+	top: 10,
+	visible: false,
+	left: 10,
+	right: 10,
+	layout: "vertical"
+},
+".nameTxt":{
+	top: 0,
+	width: '80%',
+	height: 38,
+	font: {fontSize: 18},
+	borderColor: "#555",
+	borderWidth: 1,
+	hintText:L('acl_name')
+}

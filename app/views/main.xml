@@ -1,0 +1,35 @@
+<Alloy>
+	<View>
+		<View id="container" class="container">
+			<View id="topbar" >
+				<View id="iconContainer">
+					<ImageView id="menuicon"/>
+				</View>
+				<Label id="winTitle"/>
+			</View>
+			<ScrollView id="sectionsView">
+			<View id="introSection" >
+				<Label id="welcome"/>
+				<Label id="introtext"/>
+			</View>
+			<View id="couponsSection">
+				<View id="couponTitleView" class= "sectionHeader">
+					<Label id="couponsTitle" class="sectionTitle"/>
+				</View>
+				<TableView id="couponsTable" onClick="couponClick">
+				</TableView>
+				
+			</View>
+			<View id="geolocationSection">
+				<View id="geoTitleView" class= "sectionHeader">
+					<Label id="geolocationTitle" class="sectionTitle"/>
+				</View>
+				<View id="geolocator">
+					
+				</View>
+				
+			</View>
+		</ScrollView>
+	</View>
+	</View>
+</Alloy>

@@ -1,0 +1,15 @@
+"#infoLabel" :{
+	top: 10,
+	text: L('jsPDF'),
+	textAlign: "center",
+	color: "#555",
+	left: 5,
+	right:5
+},
+"#runPdf" :{
+    title: L('run_pdf'),
+    left: 40,
+    right: 40,
+    top: 40,
+	color: "#ffffff"
+}

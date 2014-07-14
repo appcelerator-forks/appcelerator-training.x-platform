@@ -1,0 +1,63 @@
+"#calendarView" :{
+	layout: "vertical",
+	top: 10,
+	left:10,
+	right:10,
+	height: 0,
+	visible: false
+},
+"#calendarType" :{
+	text: L('select_calendar'),
+	font: {fontFamily: "HelveticaNeue", fontSize :"14"},
+	color: "#555"
+},
+"#calendarPicker" :{
+	top: 10,
+	selectionIndicator:"true"
+},
+"#buttonBar" :{
+	top: 10,
+	height: Ti.UI.SIZE,
+	right: 10,
+	left: 10,
+	layout: "horizontal"
+},
+"#createEvent" :{
+	title: L('create_sample_event'),
+	top:5,
+	color: "#ffffff",
+	width: "60%"
+	
+},
+"#viewEvent" :{
+	title:L('view_event'),
+	left: 10,
+	top:5,
+	color: "#ffffff",
+	width: 0,
+	visible: false
+},
+"#eventsView[platform=ios]" :{
+	backgroundColor : '#555',
+	top : 10,
+	left : 10,
+	right : 10,
+	height: "18%",
+	visible: false
+},
+"#eventsView[platform=android]" :{
+	backgroundColor : '#555',
+	top : 10,
+	left : 10,
+	right : 10,
+	height: "35%",
+	visible: false
+},
+"#label" :{
+	top: 5,
+	text: L('click_button'),
+	font: {fontFamily: "HelveticaNeue", fontSize :"12"},
+	textAlign: "center",
+	color: "#ffffff",
+	backgroundColor: "#555"
+}

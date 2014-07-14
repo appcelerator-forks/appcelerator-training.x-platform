@@ -1,0 +1,61 @@
+"#audioPlayerWin":{
+	width: "100%",
+	backgroundColor: 'white',
+	navBarHidden: true
+},
+"#parent":{
+	layout: "vertical",
+	top: "0",
+	left: "0"
+}
+"#audioView":{
+	layout: "vertical",
+	width: "80%",
+	height: Ti.UI.SIZE,
+	backgroundColor: "#444",
+	top: 20
+},
+"#progressBar":{
+	min: 0,
+	value: 0 ,
+	width: 200 ,
+	height: 30 ,
+	visible: true
+},
+"#controlView":{
+	top: 10,
+	layout: "horizontal",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+},
+"#pause":{
+	backgroundImage: "/images/pause.png",
+	width: 26,
+	height: 26,
+	backgroundColor: "transparent",
+	enabled: false
+},
+"#stop":{
+	left: 30,
+	backgroundImage: "/images/stop.png",
+	width: 26,
+	height: 26,
+	backgroundColor: "transparent",
+	enabled: false
+},
+"#buttonView":{
+	layout: "horizontal" ,
+	top: 20 ,
+	left: 10,
+	right: 10 ,
+	height: Ti.UI.SIZE
+},
+"#playLocal":{
+	title:L( 'localSound'),
+	width: "43%"
+},
+"#playRemote":{
+	left: 15,
+	title:L( 'remoteSound'),
+	width: "50%"
+}

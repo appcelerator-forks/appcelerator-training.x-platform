@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="mapWin" class="childContainer">
+		<Require id="topBar" src="partials/topbar"></Require>
+		<View id="mapView">
+		</View>
+		<TableView id="table" onClick="tblClick"/>
+	</Window>
+</Alloy>

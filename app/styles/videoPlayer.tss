@@ -1,0 +1,32 @@
+"#movieView":{
+	top:10,
+	height:300,
+	left:10,
+	right:10
+},
+"#movie":{
+	backgroundColor: '#111',
+	scalingMode: Titanium.Media.VIDEO_SCALING_MODE_FILL
+},
+"#buttonView":{
+	  left:10,
+	  right:10,
+	  top:20
+},
+"#buttonView[platform=android]":{
+	  top:100
+},
+"#localVideo":{
+	 top:0,
+	 left:0,
+	 width:"40%",
+	 title: L('playLocal')
+},
+"#remoteVideo":{
+	 top:0,
+	 width:"40%",
+	 title: L('playRemote')
+},
+"#remoteVideo[platform=ios,android,blackberry]":{
+	 right:0,
+}

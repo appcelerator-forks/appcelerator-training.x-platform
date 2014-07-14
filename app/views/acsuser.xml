@@ -1,0 +1,39 @@
+<Alloy>
+	<Window id="acsuserWin" class="childContainer" >
+		<Require id="topBar" src="partials/topbar"></Require>
+		<ScrollView id="contentScroll">
+		<Button id="create" onClick="animateView"/>
+		<View id="createView" class="contentView">
+			<View id="userNameView">
+				<TextField id="userNameVal"></TextField>
+			</View>
+			<View id="passwordView">
+				<TextField id="passwordVal"></TextField>
+			</View>
+			<View id="cnfpasswordView">
+				<TextField id="cnfpasswordVal"></TextField>
+			</View>
+			<View id="firstNameView">
+				<TextField id="firstNameVal"></TextField>
+			</View>
+			<View id="lastNameView">
+				<TextField id="lastNameVal"></TextField>
+			</View>
+			<View id="emailView">
+				<TextField id="emailVal"></TextField>
+			</View>
+			<Button id="createUser" onClick="submitForm" class="innerButton"/>
+		</View>
+		<Button id="login" onClick="animateView"/>
+		<View id="loginView" class="contentView">
+			<View id="lusernameView">
+				<TextField id="lusernameVal"></TextField>
+			</View>
+			<View id="lpasswordView">
+				<TextField id="lpasswordVal"></TextField>
+			</View>
+			<Button id="submit" onClick="loginUser" class="innerButton"/>
+		</View>
+		</ScrollView>
+	</Window>
+</Alloy>

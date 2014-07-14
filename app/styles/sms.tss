@@ -1,0 +1,25 @@
+"#content":{
+	left:0, 
+	top:30,
+	height:Ti.UI.SIZE, 
+	width:Ti.UI.FILL 
+},
+"#txtMobileNo":{
+	top: 0,
+	height: 38,
+	width:160,
+	color: "#555",
+	textAlign: "left",
+	borderColor: "#444",
+	borderWidth: 1,
+	hintText:L("mobile_number"),
+	keyboardType:Ti.UI.KEYBOARD_NUMBERS_PUNCTUATION,
+	returnKeyType:Ti.UI.RETURNKEY_DONE
+},
+"#sendSms":{
+	top: 20,
+	width:"55%",
+	title:L("send_sms"),
+	color: "#ffffff"
+}
+

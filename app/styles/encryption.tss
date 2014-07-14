@@ -1,0 +1,51 @@
+"#label1" :{
+	text:L('text_to_encrypt'),
+	top:20,
+	color: "#555"
+},
+"#originalText" :{
+	borderColor: "#444",
+	borderWidth: 1,
+	left : 20,
+	right: 20,
+	height: 80,
+	color: "#555",
+	textAlign: "left",
+	top: 10,
+	value:L('original_text')
+},
+"#label2" :{
+	text:L('encrypt_text'),
+	top: 20,
+	color: "#555",
+	enabled: false
+},
+"#encryptedText" :{
+	borderColor: "#444",
+	borderWidth: 1,
+	left : 20,
+	right: 20,
+	height: Ti.UI.SIZE,
+	color: "#555",
+	textAlign: "center",
+	top: 10,
+	enabled: false
+},
+"#encrypt" :{
+	title: L('encrypt_click'),
+	color: "#ffffff",
+	left: 0,
+	width: "55%"
+},
+"#clear" :{
+	title: L('clear_text'),
+	color: "#ffffff",
+	right: 0,
+	width: "40%"
+},
+"#buttonView" :{
+	top: 10,
+	height: Ti.UI.SIZE,
+	left: 20,
+	right: 20
+}

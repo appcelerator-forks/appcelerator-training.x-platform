@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="barcodeWin" class="childContainer">
+		<Require id="topBar" src="partials/topbar"></Require>
+	</Window>
+</Alloy>

@@ -1,0 +1,7 @@
+"#emailPic" :{
+	title: L('email_picture'),
+	left: 40,
+	right: 40,
+	top: 40,
+	color: "#ffffff"
+	}

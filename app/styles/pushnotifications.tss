@@ -1,0 +1,8 @@
+"#enablePushBtn" :{
+	top: 100,
+	title: L('enable_push'),
+	color: "#ffffff",
+	textAlign:"center",
+	right: 40,
+	left: 40
+}

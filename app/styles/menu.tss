@@ -1,0 +1,112 @@
+".container":{
+	 backgroundColor:'#333',
+	 layout:'vertical',
+	 scrollType:"vertical",
+	 contentHeight: "auto"
+	 
+ },
+ ".menuItem": {
+	backgroundColor:'#444',
+	width:'100%',
+	height:40,
+	top:5
+ },
+
+ "Label": {
+	 color:'#fff',
+	 font: {
+	 fontSize: 16
+	 },
+	 left:'20',
+	 touchEnabled:false
+}
+"#lblhome":{
+	text: L('home')
+},
+"#lblmap":{
+	text: L('map')
+},
+"#lblmapdraw":{
+	text: L('mapdraw')
+},
+"#lblcamera":{
+	text: L('camera')
+},
+"#lblbarcode":{
+	text: L('barcode')
+},
+"#lblcharts":{
+	text: L('charts')
+},
+"#lblcalendar":{
+	text: L('calendar')
+},
+"#lblencryption":{
+	text: L('encryption')
+},
+"#lblpush":{
+	text: L('pushNotification')
+},
+"#lblremoteHtml":{
+	text: L('remoteHtml')
+},
+"#lbllocalHtml":{
+	text: L('localHtml')
+},
+"#lbllocalPdf":{
+	text: L('localPdf')
+},
+"#lblgeneratePdf":{
+	text: L('generatePdf')
+},
+"#RemoteHtml":{
+	titleText:L('remoteHtml')
+},
+"#localHtml":{
+	titleText:L('localHtml')
+},
+"#localPdf":{
+	titleText:L('localPdf')
+},
+"#lblLocalDB":{
+	text: L('localDB')
+},
+"#lblVideoPlayer":{
+	text: L('videoPlayer')
+},
+"#lblAudioPlayer":{
+	text: L('audioPlayer')
+},
+"#lblSms":{
+	text: L('sms')
+},
+"#lblModel":{
+	text: L('model')
+},
+"#lblConfig":{
+	text: L('config_json')
+},
+"#lblAndroid":{
+	text: L('androidDensity')
+},
+"#lblBuiltins":{
+	text: L('builtins')
+}
+"#lblLayout":{
+	text: L('layouts')
+},
+"#lblBackground":{
+	text: L('background')
+},
+"#lblAcsUser":{
+	text: L('acs_user')
+},
+"#lblAcsAcl":{
+	text: L('acs_acl')
+},
+"#lblCrashApp":{
+	text: L('crash_exceptions')
+}
+"#lblAcsExample":{
+	text:L('acs_examples')
+}

@@ -1,0 +1,6 @@
+".mainContainer" : {
+	backgroundColor:'white',
+	navBarHidden:true,
+	exitOnClose:true
+}
+

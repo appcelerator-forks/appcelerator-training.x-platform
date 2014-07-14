@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="mainWin" class="mainContainer">
+			<Require type="widget" src="com.appcelerator.sidemenu" id="drawermenu"/>
+	</Window>
+</Alloy>

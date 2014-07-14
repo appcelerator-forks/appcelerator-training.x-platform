@@ -1,0 +1,18 @@
+<Alloy>
+	<TableViewRow id="bookRow">
+		<View id="rowView">
+			<View id="dataView">
+				<Label id="title" text="{title}"/>
+				<Label id="author" text="{author}"/>
+			</View>
+			<!--adding the edit/del feature for ios/android as for blackberry events are not getting bubbled up-->
+			<View id="edit" rowid="{id}" type="edit" author="{author}" title="{title}" platform="ios,android">
+				<ImageView id="editIcon"/>
+			</View>
+			<!--adding the edit/del feature for ios/android as for blackberry events are not getting bubbled up-->
+			<View id="del" rowid="{id}" type="delete" platform="ios,android">
+				<ImageView id="delIcon"/>
+			</View>
+		</View>
+	</TableViewRow>
+</Alloy>

@@ -1,0 +1,85 @@
+<Alloy>
+	<ScrollView id="container" class="container" onClick="changeBackgroundColor">
+		<View id="home" class="menuItem">
+			<Label  id="lblhome"></Label>
+		</View>
+		<View id="map" class="menuItem">
+			<Label id="lblmap"/>
+		</View>
+		<View id="camera" class="menuItem" platform="ios,android,blackberry">
+			<Label  id="lblcamera"/>
+		</View>
+		<View id="barcode" class="menuItem">
+			<Label  id="lblbarcode"/>
+		</View>
+		<View id="charts" class="menuItem" platform="ios,android, mobileweb">
+			<Label id="lblcharts"/>
+		</View>
+		<View id="calendar" class="menuItem" platform="ios,android">
+			<Label id="lblcalendar"/>
+		</View>
+		<View id="encryption" class="menuItem" platform="ios,android">
+			<Label  id="lblencryption"/>
+		</View>
+		<View id="pushnotifications" class="menuItem" platform="ios,android">
+			<Label  id="lblpush"/>
+		</View>
+		<View id="RemoteHtml" controller="fileViewer" title="Remote HTML File" class="menuItem" print="false" url="http://www.wikipedia.com">
+			<Label  id="lblremoteHtml"/>
+		</View>
+		<View id="localHtml" controller="fileViewer" title="Local HTML File" class="menuItem" print="false" url="/html/index.html">
+			<Label  id="lbllocalHtml"/>
+		</View>
+		<View id="localPdf" controller="fileViewer" title="Local PDF File" class="menuItem" print="true" url="/Data_Sheet.pdf" platform="ios, mobileweb">
+			<Label id="lbllocalPdf"/>
+		</View>
+		<View id="jsPDF" class="menuItem" platform="ios,android">
+			<Label id="lblgeneratePdf"/>
+		</View>
+		<View id="localDB" class="menuItem" platform="ios,android,blackberry">
+			<Label id="lblLocalDB"/>
+		</View>
+		<View id="videoPlayer" class="menuItem" platform="ios,android,blackberry,mobileweb">
+			<Label id="lblVideoPlayer"/>
+		</View>
+		<View id="audioPlayer" class="menuItem" platform="ios,android">
+			<Label id="lblAudioPlayer"/>
+		</View>
+		<View id="sms" class="menuItem" platform="ios,android">
+			<Label id="lblSms"/>
+		</View>
+		<View id="model" class="menuItem" platform="ios,android">
+			<Label id="lblModel"/>
+		</View>
+		<View id="configJson" class="menuItem" platform="ios,android,blackberry,mobileweb">
+			<Label id="lblConfig"/>
+		</View>
+		<View id="androidDensity" class="menuItem" platform="ios,android,mobileweb">
+			<Label id="lblAndroid"/>
+		</View>
+		<View id="builtins" class="menuItem">
+			<Label id="lblBuiltins"/>
+		</View>	
+		<View id="layout" class="menuItem">
+			<Label id="lblLayout"/>
+		</View>
+		<View id="background" class="menuItem" platform="ios,android,mobileweb">
+			<Label id="lblBackground"/>
+		</View>
+		<View id="mapDrawing" class="menuItem" platform="ios,android">
+			<Label id="lblmapdraw"/>
+		</View>
+		<View id="acsuser" class="menuItem" platform="ios,android">
+			<Label id="lblAcsUser"/>
+		</View>
+		<View id="acsAcl" class="menuItem" platform="ios,android">
+			<Label id="lblAcsAcl"/>
+		</View>
+		<View id="crashApp" class="menuItem" platform="ios,android">
+			<Label id="lblCrashApp"/>
+		</View>
+		<View id="acsExamples" class="menuItem" platform="ios,android">
+			<Label id="lblAcsExample"/>
+		</View>
+	</ScrollView>
+</Alloy>

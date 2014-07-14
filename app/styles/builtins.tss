@@ -1,0 +1,349 @@
+"#scrollView":{
+	width:Ti.UI.FILL,
+	layout:"vertical"
+},
+"#label": {
+	color: "#eee",
+	font: {
+		fontSize: 18,
+		fontWeight: "bold"
+	},
+},
+"#animationParent":{
+	top:10,
+	left : 10,
+	right:10,
+	height:Ti.UI.SIZE,
+	borderColor:"#a22621",
+	borderWidth:1
+},
+"#animationViewHolder":{
+	top:10,
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE
+},
+"#shake":{
+	title:L('shake'),
+	top:0,
+	left:0,
+	width:80
+},
+"#flash":{
+	title:L('flash'),
+	top:50,
+	left:0,
+	width:80
+},
+"#flipper": {
+	top:0,
+	left:90,
+	height: 90,
+	width: 90,
+	bottom:10
+},
+"#fadeIn":{
+	title:L('fade_in'),
+	top:50,
+	left:190,
+	width:110
+},
+"#fadeOut":{
+	title:L('fade_out'),
+	top:0,
+	left:190,
+	width:110
+},
+"#front": {
+	text: L('flip'),
+	color: "white",
+	backgroundColor:"#444",
+	textAlign:"center",
+	height:100,
+	width:100
+},
+"#back": {
+	text: L('flip'),
+	color: "white",
+	backgroundColor:"green",
+	textAlign:"center",
+	height:100,
+	width:100
+},
+"#measurmentView":{
+	top:10,
+	left : 10,
+	right:10,
+	height:Ti.UI.SIZE,
+	borderColor:"#a22621",
+	borderWidth:1	
+},
+"#dpWrapper":{
+	top:10,
+	bottom:10,
+	left:10,
+	width:"25%",
+	height:40,
+	borderWidth:2
+},
+"#dpField":{
+	left:5,
+	right:0,
+	maxLength:4,
+	hintText: L('dp'),
+	keyboardType:Titanium.UI.KEYBOARD_NUMBER_PAD
+	
+},
+"#pxWrapper":{
+	top:10,
+	width:"25%",
+	height:40,
+	borderWidth:2
+}
+"#pxField":{
+	left:5,
+	right:0,
+	hintText: L('px'),
+	focusable:false,
+	editable:false
+},
+"#dpToPXButton":{
+	right:10,
+	title:L('dp_to_px'),
+	width:"25%",
+	height:Ti.UI.SIZE,
+},
+"#dateParent":{
+	top:10,
+	left : 10,
+	right:10,
+	height:Ti.UI.SIZE,
+	borderColor:"#a22621",
+	borderWidth:1
+},
+"#dateViewWrapper":{
+	layout:"vertical",
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE
+},
+"#dateInputWrapper":{
+	top:10,
+	height:Ti.UI.SIZE,
+	width:290
+},
+"#dateInput":{
+	height:30,
+	font:{
+		fontSize:12,
+	},
+	height: 40,
+	width:220,
+	value:L('date_sample'),
+	hintText: L('date_sample'),
+	borderColor:"#555"
+},
+"#dateOutputWrapper":{
+	top:10,
+	height:Ti.UI.SIZE,
+	width:290
+},
+"#dateFormat":{
+	height:40,
+	value:L('sample_format'),
+	hintText:L('sample_format'),
+	borderColor:"#555",
+	width:220,
+	font:{
+		fontSize:12,
+	},
+},
+"#formatButtonHolder":{
+	top:10,
+	height:Ti.UI.SIZE,
+	width:227
+},
+"#format":{
+	left:0,
+	width:110,
+	title:L('format_date')
+},
+"#clear":{
+	left:115,
+	width:110,
+	title:L('clear_text')
+},
+"#resultWrapper":{
+	top:10,
+	height:Ti.UI.SIZE,
+	width:290
+},
+"#resultDate":{
+	width:220,
+	height:40,
+	borderColor:"#555",
+	color:"#555",
+	borderWidth:1,
+	font:{
+		fontSize:12,
+	},
+	textAlign: "center",
+	text:L('result')
+},
+"#paddingView":{
+	height:10
+},
+"#sha1Parent":{
+	top:10,
+	left : 10,
+	right:10,
+	height:Ti.UI.SIZE,
+	borderColor:"#a22621",
+	borderWidth:1
+},
+"#sha1ViewWrapper":{
+	layout:"vertical",
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE
+},
+"#sha1InputWrapper":{
+	top:10,
+	height:Ti.UI.SIZE,
+	width:290
+},
+"#sha1Input":{
+	height:40,
+	font:{
+		fontSize:12,
+	},
+	width:225,
+	textAlign: "center",
+	value:L('text_sample'),
+	hintText:L('text_sample'),
+	borderColor:"#555"
+},
+"#sha1resultWrapper":{
+	top:10,
+	height:Ti.UI.SIZE,
+	width:290
+},
+"#sha1ResultLabel":{
+	width:225,
+	height:40,
+	borderColor:"#555",
+	color:"#555",
+	borderWidth:1,
+	font:{
+		fontSize:12,
+	},
+	textAlign: "center",
+	text:L('result')
+},
+"#sha1ButtonHolder":{
+	top:10,
+	height:Ti.UI.SIZE,
+	width:150
+},
+"#encryptButton":{
+	left:0,
+	width:150,
+	title:L('encrypt')
+}
+"#stringParent":{
+	top:10,
+	left : 10,
+	right:10,
+	height:Ti.UI.SIZE,
+	borderColor:"#a22621",
+	borderWidth:1
+},
+"#stringViewWrapper":{
+	layout:"vertical",
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE
+},
+"#stringInputWrapper":{
+	top:10,
+	height:Ti.UI.SIZE,
+	width:290
+},
+"#stringInputLabel":{
+	left:0,
+	width:60,
+	font:{
+		fontSize:12,
+	},
+	text:L('text'),
+	color:"black"
+},
+"#stringInput":{
+	left:60,
+	height:30,
+	font:{
+		fontSize:12,
+	},
+	width:225,,
+	value:L('string_sample'),
+	borderColor:"black"
+},
+"#stringResultWrapper":{
+	top:10,
+	height:Ti.UI.SIZE,
+	width:290
+},
+"#stringResultHead":{
+	left:0,
+	width:60,
+	font:{
+		fontSize:12,
+	},
+	color:"black",
+	text:L('result_sha1')
+},
+"#stringResultLabel":{
+	left:60,
+	width:225,
+	height:30,
+	borderColor:"black",
+	color:"black",
+	borderWidth:1,
+	font:{
+		fontSize:12,
+	},
+},
+"#stringButtonHolder":{
+	top:10,
+	height:Ti.UI.SIZE,
+	width:275
+},
+"#ucFirstButton":{
+	left:0,
+	width:135,
+	title:L('uc_first')
+},
+"#lcFirstButton":{
+	left:140,
+	width:135,
+	title:L('lc_first')
+}
+"#stringButtonHolder2":{
+	top:10,
+	height:Ti.UI.SIZE,
+	width:275
+},
+"#trim":{
+	left:0,
+	width:135,
+	title:L('trim')
+},
+"#trimZerosButton":{
+	left:140,
+	width:135,
+	title:L('trim_zeros')
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+<Alloy>
+	<Window id="builtinsWin" class="childContainer">
+		<Require id="topBar" src="partials/topbar"></Require>
+		<ScrollView id="scrollView">
+			<View id="animationParent">
+				<View id="animationViewHolder">
+					<Button id="shake" onClick="shake"></Button>
+					<Button id="flash" onClick="flash"></Button>
+					<View id="flipper" >
+						<Label id="back" onClick="flip"/>
+						<Label id="front" onClick="flip"/>
+					</View>
+					<Button id="fadeOut" onClick="fadeOut"></Button>
+					<Button id="fadeIn" onClick="fadeIn"></Button>
+				</View>
+			</View>
+			<View id="measurmentView" platform="android">
+				<View id="dpWrapper">
+					<TextField id="dpField"></TextField>
+				</View>
+				<View id="pxWrapper">
+					<TextField id="pxField"></TextField>
+				</View>
+				<Button id="dpToPXButton" onClick="changedpToPX"></Button>
+			</View>
+			<View id="dateParent">
+				<View id="dateViewWrapper">
+					<View id="dateInputWrapper">
+						<TextField id="dateInput"></TextField>
+					</View>
+					<View id="dateOutputWrapper">
+						<TextField id="dateFormat"></TextField>
+					</View>
+					<View id="resultWrapper">
+						<Label id="resultDate"></Label>
+					</View>
+					<View id="formatButtonHolder">
+						<Button id="format" onClick="formatDate"></Button>
+						<Button id="clear" onClick="clearFields"></Button>
+					</View>
+					<View id="paddingView"></View>
+				</View>
+			</View>
+			<View id="sha1Parent">
+				<View id="sha1ViewWrapper">
+					<View id="sha1InputWrapper">
+						<TextField id="sha1Input"></TextField>
+					</View>
+					<View id="sha1resultWrapper">
+						<Label id="sha1ResultHead"></Label>
+						<Label id="sha1ResultLabel"></Label>
+					</View>
+					<View id="sha1ButtonHolder">
+						<Button id="encryptButton" onClick="encryptSha1"></Button>
+					</View>
+					<View id="paddingView"></View>
+				</View>
+			</View>
+			<View id="stringParent">
+				<View id="stringViewWrapper">
+					<View id="stringInputWrapper">
+						<Label id="stringInputLabel"></Label>
+						<TextField id="stringInput"></TextField>
+					</View>
+					<View id="stringResultWrapper">
+						<Label id="stringResultHead"></Label>
+						<Label id="stringResultLabel"></Label>
+					</View>
+					<View id="stringButtonHolder">
+						<Button id="ucFirstButton" onClick="upperCaseFirstCharacter"></Button>
+						<Button id="lcFirstButton" onClick="lowerCaseFirstCharacter"></Button>
+					</View>
+					<View id="stringButtonHolder2">
+						<Button id="trimZerosButton" onClick="trimZeros"></Button>
+						<Button id="trim" onClick="trim"></Button>
+					</View>
+					<View id="paddingView"></View>
+				</View>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

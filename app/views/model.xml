@@ -1,0 +1,20 @@
+<Alloy>
+	<!-- Instance of the model -->
+    <Collection src="book" />
+	<Window id="modelWin" class="childContainer">
+		<Require id="topBar" src="partials/topbar"></Require>
+		<View id="inputView">
+			<View id="titleView">
+				<TextField id="titleVal"></TextField>
+			</View>
+			<View id="authorView">
+				<TextField id="authorVal"></TextField>
+			</View>
+			<Button id="add" onClick="addupdate"/>
+		</View>
+		<!-- Specifies the collection singleton or instance to bind to the table. -->
+		<TableView id="tblBooks" dataCollection="book" onClick="performOperation">
+			<Require src="partials/bookRow"/>
+		</TableView>	
+	</Window>
+</Alloy>
